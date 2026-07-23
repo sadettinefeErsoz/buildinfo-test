@@ -1,8 +1,8 @@
 {
-  "build_tag": "20260723-094731-b77aca6",
-  "commit": "b77aca6",
-  "previous_commit": "4b1d14b",
-  "build_time": "2026-07-23T09:47:31Z",
+  "build_tag": "20260723-095119-795e0ec",
+  "commit": "795e0ec",
+  "previous_commit": "b77aca6",
+  "build_time": "2026-07-23T09:51:19Z",
   "branch": "main",
   "binaries": [
     {
@@ -15,8 +15,8 @@
       "changes": [
         {
           "author": "Sadettin Efe Ersöz",
-          "message": "test: ikinci degisiklik",
-          "commit": "b77aca6"
+          "message": "deneme",
+          "commit": "795e0ec"
         }
       ],
       "has_migration": false
