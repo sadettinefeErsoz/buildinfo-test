@@ -1,25 +1,8 @@
 {
-  "build_tag": "20260723-105518-1c43452",
-  "commit": "1c43452",
-  "previous_commit": "795e0ec",
-  "build_time": "2026-07-23T10:55:18Z",
+  "build_tag": "20260723-110111-a1d6dec",
+  "commit": "a1d6dec",
+  "previous_commit": "1c43452",
+  "build_time": "2026-07-23T11:01:11Z",
   "branch": "main",
-  "binaries": [
-    {
-      "binary": "ortak_kutuphane",
-      "module": "libs",
-      "risk": "medium",
-      "files": [
-        "libs/ortak-moduller"
-      ],
-      "changes": [
-        {
-          "author": "Sadettin Efe Ersöz",
-          "message": "test: submodul eklendi (golang/example fork)",
-          "commit": "1c43452"
-        }
-      ],
-      "has_migration": false
-    }
-  ]
+  "binaries": []
 }
