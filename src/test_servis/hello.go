@@ -8,3 +8,4 @@ func main() {
 	fmt.Println("kinci degisiklik")
 
 }
+fmt.Println("normal dosya degisikligi")
