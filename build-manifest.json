@@ -1,8 +1,8 @@
 {
-  "build_tag": "20260723-110226-745d3be",
-  "commit": "745d3be",
-  "previous_commit": "a1d6dec",
-  "build_time": "2026-07-23T11:02:26Z",
+  "build_tag": "20260723-111219-97d9d08",
+  "commit": "97d9d08",
+  "previous_commit": "745d3be",
+  "build_time": "2026-07-23T11:12:19Z",
   "branch": "main",
   "binaries": [
     {
@@ -10,29 +10,13 @@
       "module": "libs",
       "risk": "medium",
       "files": [
-        "libs/ortak-moduller/hello/reverse/reverse.go"
+        "libs/ortak-moduller/hello/reverse/example_test.go"
       ],
       "changes": [
         {
           "author": "Sadettin Efe Ersöz",
-          "message": "test: hello/reverse icinde degisiklik",
-          "commit": "15bc75f"
-        }
-      ],
-      "has_migration": false
-    },
-    {
-      "binary": "test_servis",
-      "module": "test",
-      "risk": "low",
-      "files": [
-        "src/test_servis/hello.go"
-      ],
-      "changes": [
-        {
-          "author": "Sadettin Efe Ersöz",
-          "message": "test: submodul pointer guncellendi + normal dosya degisti",
-          "commit": "745d3be"
+          "message": "exampletest.go dosyasında sahte degisiklik yapıldı",
+          "commit": "09d7466"
         }
       ],
       "has_migration": false
@@ -41,8 +25,8 @@
   "submodule_updates": [
     {
       "path": "libs/ortak-moduller",
-      "old_hash": "7f05d217867b2af52b0a28c6d1c91df97e1b5b39",
-      "new_hash": "15bc75fe39556670a0e1609a0aa981a1bfb415f8"
+      "old_hash": "15bc75fe39556670a0e1609a0aa981a1bfb415f8",
+      "new_hash": "09d7466e3d594beb08222c1c37c7f06859c977b0"
     }
   ]
 }
