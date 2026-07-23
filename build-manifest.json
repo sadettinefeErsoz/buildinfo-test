@@ -1,32 +1,8 @@
 {
-  "build_tag": "20260723-111219-97d9d08",
-  "commit": "97d9d08",
-  "previous_commit": "745d3be",
-  "build_time": "2026-07-23T11:12:19Z",
+  "build_tag": "20260723-122756-4e75558",
+  "commit": "4e75558",
+  "previous_commit": "97d9d08",
+  "build_time": "2026-07-23T12:27:56Z",
   "branch": "main",
-  "binaries": [
-    {
-      "binary": "ortak_kutuphane",
-      "module": "libs",
-      "risk": "medium",
-      "files": [
-        "libs/ortak-moduller/hello/reverse/example_test.go"
-      ],
-      "changes": [
-        {
-          "author": "Sadettin Efe Ersöz",
-          "message": "exampletest.go dosyasında sahte degisiklik yapıldı",
-          "commit": "09d7466"
-        }
-      ],
-      "has_migration": false
-    }
-  ],
-  "submodule_updates": [
-    {
-      "path": "libs/ortak-moduller",
-      "old_hash": "15bc75fe39556670a0e1609a0aa981a1bfb415f8",
-      "new_hash": "09d7466e3d594beb08222c1c37c7f06859c977b0"
-    }
-  ]
+  "binaries": []
 }
