@@ -1,0 +1,25 @@
+{
+  "build_tag": "20260723-094343-4b1d14b",
+  "commit": "4b1d14b",
+  "previous_commit": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+  "build_time": "2026-07-23T09:43:43Z",
+  "branch": "main",
+  "binaries": [
+    {
+      "binary": "test_servis",
+      "module": "test",
+      "risk": "low",
+      "files": [
+        "src/test_servis/hello.go"
+      ],
+      "changes": [
+        {
+          "author": "Sadettin Efe Ersöz",
+          "message": "chore: buildinfo test kurulumu",
+          "commit": "4b1d14b"
+        }
+      ],
+      "has_migration": false
+    }
+  ]
+}
