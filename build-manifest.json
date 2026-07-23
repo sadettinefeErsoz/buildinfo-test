@@ -1,22 +1,22 @@
 {
-  "build_tag": "20260723-095119-795e0ec",
-  "commit": "795e0ec",
-  "previous_commit": "b77aca6",
-  "build_time": "2026-07-23T09:51:19Z",
+  "build_tag": "20260723-105518-1c43452",
+  "commit": "1c43452",
+  "previous_commit": "795e0ec",
+  "build_time": "2026-07-23T10:55:18Z",
   "branch": "main",
   "binaries": [
     {
-      "binary": "test_servis",
-      "module": "test",
-      "risk": "low",
+      "binary": "ortak_kutuphane",
+      "module": "libs",
+      "risk": "medium",
       "files": [
-        "src/test_servis/hello.go"
+        "libs/ortak-moduller"
       ],
       "changes": [
         {
           "author": "Sadettin Efe Ersöz",
-          "message": "deneme",
-          "commit": "795e0ec"
+          "message": "test: submodul eklendi (golang/example fork)",
+          "commit": "1c43452"
         }
       ],
       "has_migration": false
