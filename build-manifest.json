@@ -1,8 +1,8 @@
 {
-  "build_tag": "20260723-094343-4b1d14b",
-  "commit": "4b1d14b",
-  "previous_commit": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
-  "build_time": "2026-07-23T09:43:43Z",
+  "build_tag": "20260723-094731-b77aca6",
+  "commit": "b77aca6",
+  "previous_commit": "4b1d14b",
+  "build_time": "2026-07-23T09:47:31Z",
   "branch": "main",
   "binaries": [
     {
@@ -15,8 +15,8 @@
       "changes": [
         {
           "author": "Sadettin Efe Ersöz",
-          "message": "chore: buildinfo test kurulumu",
-          "commit": "4b1d14b"
+          "message": "test: ikinci degisiklik",
+          "commit": "b77aca6"
         }
       ],
       "has_migration": false
