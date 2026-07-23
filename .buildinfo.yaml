@@ -1,0 +1,13 @@
+# TEST AMAÇLI ÖRNEK YAPILANDIRMA
+# Bu dosyayı kendi gerçek proje yapınıza göre daha sonra düzenleyebilirsiniz.
+# Şimdilik tek amacı: sistemin uçtan uca çalışıp çalışmadığını görmek.
+
+submodule_paths: []
+# Bu testte submodule kullanmıyoruz, bu yüzden boş bıraktık.
+# Gerçek projenizde varsa buraya kendi submodule yollarınızı ekleyeceksiniz.
+
+mappings:
+  - path_prefix: "src/test_servis"
+    binary: "test_servis"
+    module: "test"
+    risk: "low"

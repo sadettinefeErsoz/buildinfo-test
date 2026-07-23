@@ -1,0 +1,31 @@
+name: Buildinfo Otonom Raporlama
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  buildinfo-run:
+    runs-on: windows-latest
+    steps:
+      - name: Kodu ve Git Geçmişini İndir
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: 'true'
+
+      - name: Buildinfo Aracını Ateşle
+        run: .\buildinfo-gen.exe -repo="." -out="build-manifest.json"
+
+      - name: Üretilen Raporu Repoya Kaydet
+        run: |
+          git config --global user.name "ci-bot"
+          git config --global user.email "ci-bot@sirket.com"
+          git add build-manifest.json .last-build-tag
+          git commit -m "chore: otomatik manifest guncellemesi" || echo "Degisiklik yok"
+          git push
