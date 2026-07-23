@@ -12,7 +12,7 @@ mappings:
     module: "libs"
     risk: "medium"
 
-  - path_prefix: "stringutil"
+  - path_prefix: "hello/reverse"
     binary: "ortak_kutuphane"
     module: "libs"
     risk: "medium"
