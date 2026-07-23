@@ -1,0 +1,3 @@
+[submodule "libs/ortak-moduller"]
+	path = libs/ortak-moduller
+	url = https://github.com/sadettinefeErsoz/example.git
