@@ -1,8 +1,8 @@
 {
-  "build_tag": "20260724-124349-9d7379c",
-  "commit": "9d7379c",
-  "previous_commit": "4e75558",
-  "build_time": "2026-07-24T12:43:49Z",
+  "build_tag": "20260724-132606-e21c794",
+  "commit": "e21c794",
+  "previous_commit": "9d7379c",
+  "build_time": "2026-07-24T13:26:06Z",
   "branch": "main",
   "binaries": [
     {
@@ -10,19 +10,13 @@
       "module": "libs",
       "risk": "medium",
       "files": [
-        "libs/ortak-moduller/hello/reverse/example_test.go",
         "libs/ortak-moduller/hello/reverse/example_test.go"
       ],
       "changes": [
         {
           "author": "Sadettin Efe Ersöz",
-          "message": "kontrol degisikligi uygulandı",
-          "commit": "6b92572"
-        },
-        {
-          "author": "Sadettin Efe Ersöz",
-          "message": "deneme degisikligi fmt satırı eklendi",
-          "commit": "b0e4d9d"
+          "message": "deneme2 eklendi",
+          "commit": "4920541"
         }
       ],
       "has_migration": false
@@ -31,8 +25,8 @@
   "submodule_updates": [
     {
       "path": "libs/ortak-moduller",
-      "old_hash": "09d7466e3d594beb08222c1c37c7f06859c977b0",
-      "new_hash": "6b9257252c24da1db1bd1ee29b4aa32d08f417eb"
+      "old_hash": "6b9257252c24da1db1bd1ee29b4aa32d08f417eb",
+      "new_hash": "4920541f9fcad186cfac1602d43dcc0104d9a5f3"
     }
   ]
 }
