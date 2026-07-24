@@ -1,8 +1,38 @@
 {
-  "build_tag": "20260723-122756-4e75558",
-  "commit": "4e75558",
-  "previous_commit": "97d9d08",
-  "build_time": "2026-07-23T12:27:56Z",
+  "build_tag": "20260724-124349-9d7379c",
+  "commit": "9d7379c",
+  "previous_commit": "4e75558",
+  "build_time": "2026-07-24T12:43:49Z",
   "branch": "main",
-  "binaries": []
+  "binaries": [
+    {
+      "binary": "ortak_kutuphane",
+      "module": "libs",
+      "risk": "medium",
+      "files": [
+        "libs/ortak-moduller/hello/reverse/example_test.go",
+        "libs/ortak-moduller/hello/reverse/example_test.go"
+      ],
+      "changes": [
+        {
+          "author": "Sadettin Efe Ersöz",
+          "message": "kontrol degisikligi uygulandı",
+          "commit": "6b92572"
+        },
+        {
+          "author": "Sadettin Efe Ersöz",
+          "message": "deneme degisikligi fmt satırı eklendi",
+          "commit": "b0e4d9d"
+        }
+      ],
+      "has_migration": false
+    }
+  ],
+  "submodule_updates": [
+    {
+      "path": "libs/ortak-moduller",
+      "old_hash": "09d7466e3d594beb08222c1c37c7f06859c977b0",
+      "new_hash": "6b9257252c24da1db1bd1ee29b4aa32d08f417eb"
+    }
+  ]
 }
